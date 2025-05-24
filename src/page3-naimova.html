@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+  <header class="flex justify-around items-center">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+    <img src="./Group 673.png" alt="">
+    <p class="md:block hidden"><span class="bg-[#CA0100] text-[white] rounded-[10px]"> 10 лет </span>   превосходим <br>
+        ваши ожидания</p>
+        <p class="md:block hidden">Подбор авто</p>
+        <p class="md:block hidden">О компании</p>
+        <p class="md:block hidden">Техцентр</p>
+        <p class="md:block hidden">Отзывы</p>
+        <p class="md:block hidden">Контакты</p>
+        <div class="text1 md:flex hidden justify-center items-center gap-[5px]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+         <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+          </svg>  
+          <p>+7 (800) 551-94-31</p>
+        </div>
+        <button class="bg-[#CA0100] text-[white] p-5 rounded-[10px] md:block hidden">Обратный звонок</button>
+  </header><br>
+  <header class="md:flex hidden justify-around items-center">
+    <div class="text2 flex justify-center items-center gap-[10px]"> 
+      <p>Каталог авто</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+    </svg>
+    </div>
+    <div class="text2 flex justify-center items-center gap-[5px]"> 
+      <p>Авто с пробегом</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+    </svg>
+    </div>
+    <div class="text2 flex justify-center items-center gap-[5px]"> 
+      <p>Кредит и рассрочка</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+    </svg>
+    </div>
+    <div class="text2 flex justify-center items-center gap-[5px]"> 
+      <p>Спецпредложения</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+    </svg>
+    </div>
+    <p>Такси в кредит</p>
+    <div class="text3 flex justify-center items-center gap-[10px]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+  <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+  <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg>
+    </div>
+  </header><br>
+  <header class="md:flex block justify-around items-center bg-[url('/src/bg1.jpg')] bg-cover bg-center h-[80vh] w-full"> 
+    <div class="text5 md:w-[30%] w-[80%] m-auto text-center md:text-start">
+      <div class="text4 flex justify-center items-center gap-10">
+        <p class="md:block hidden">Главная </p>
+        <p class="md:block hidden">Каталог авто</p> 
+        <p class="md:block hidden"> Toyota </p> 
+        <p class="md:block hidden">Toyota Camry </p>
+      </div><br><br>
+      <h2 class="text-4xl">Toyota Camry</h2><br>
+      <p>800 000 ₽ </p>
+      <div class="text5 md:flex block justify-start items-center gap-[40px]">
+        <h3 class="text-4xl">от 700 000 ₽</h3>
+        <button class="bg-[#CA0100] text-[white] p-5 rounded-[10px]">Выгода до 100 000₽</button>
+      </div><br>
+        <div class="text6 w-[80%] m-auto  flex justify-start items-center gap-10">
+          <img src="./Group 604.png" alt="">
+            <p>Улучшим любое <br>
+                предложение</p>
+      </div><br>
+      <div class="text6  w-[80%] m-auto   flex justify-start items-center gap-10">
+          <img src="./Group 621.png" alt="">
+            <p>Без первончального <br>
+                 взноса</p>
+      </div><br>
+      <div class="text6 w-[80%] m-auto   flex justify-start items-center gap-10 bg-[#FFFFFF]">
+          <img src="./ruble-currency-sign.png" alt="">
+            <p>Кредит от 1,9%</p>
+      </div>
+    </div>
+    <div class="text7">
+      <p>Цвет: Night Black</p><br>
+      <div class="img flex justify-start gap-[5px]">
+        <img src="./Ellipse 34.png" alt="">
+        <img src="./Ellipse 33.png" alt="">
+        <img src="./Ellipse 32.png" alt="">
+        <img src="./Ellipse 20.png" alt="">
+        <img src="./Ellipse 21.png" alt="">
+        <img src="./Ellipse 23 (1).png" alt="">
+        <img src="./Ellipse 24.png" alt="">
+        <img src="./Ellipse 25.png" alt="">
+      </div>
+      <img src="./cf3de6a6a3a8dcf216cb357b444fc381 1.png" alt="" class="md:w-[675px] md:h-[374px]">
+    </div>
+  </header>
+  <header class="md:w-[70%]  m-auto md:flex block text-center bg-[whitesmoke] justify-around items-center p-5">
+    <div class="text8">
+      <h4>Получите 
+        специальную цену</h4><br>
+        <button class="text-[white] bg-[#CA0100] w-[30%] rounded-[10px]">Только до 10.10.21</button>
+      </div>
+      <div class="text9">
+        <div class="text10 md:flex block justify-around">
+          <input type="text" placeholder="Ваше имя" class="p-5">
+          <input type="text" placeholder="Ваш телефон" class="p-5">
+        </div>
+        <p>Нажимая кнопку “Получить скидку” Вы даете согласие на обработку своих персональных данных</p>
+      </div>
+      <button class="bg-[#CA0100] text-[white] p-5">Получить предложение</button>
+  </header><br><br>
+  <header>
+    <div class="text11 md:flex hidden justify-around items-center">
+      <p>Автомобили в наличии</p>
+      <p>Особенности модели</p>
+      <p>Галерея</p>
+      <p>Характеристики</p>
+      <p>Спецпредложения</p>
+    </div><br><br>
+    <div class="text md:flex block justify-start gap-[150px] items-center text-center">
+      <div class="text0 md:block hidden">
+        <div class="text13 bg-[#CA0100] text-[white] flex w-[60%] justify-start items-center gap-[10px] rounded-[10px]">
+        <img src="./Vector (3).png" alt="">
+        <p>Автомобили в наличии</p>
+      </div><br>
+      <img src="./Group (4).png" alt=""><br>
+      <img src="./Group 3818.png" alt=""><br>
+      <img src="./Group (5).png" alt=""><br>
+      <img src="./Group (6).png" alt=""><br>
+    </div>
+    <div class="text00 flex md:hidden justify-around items-center bg-[#000000] p-5">
+      <img src="./Vector (3).png" alt="">
+      <img src="./Group (4).png" alt="">
+      <img src="./Group 3818.png" alt="">
+      <img src="./Group (5).png" alt="">
+      <img src="./Group (6).png" alt="">
+    </div><br>
+    <div class="text15">
+      <h2 class="text-4xl">Автомобили Toyota Camry в наличии</h2><br>
+      <span class="bg-[#CA0100] text-[white] rounded-[10px]">2.5 AT ...-25%</span><br><br>
+      <div class="text16 md:flex hidden justify-center gap-[50px] items-center">
+        <p>Комплектация</p>
+        <p>Двигатель</p>
+        <p>Коробка передач</p>
+        <p>Привод</p>
+        <p>Цена</p>
+        <p>Со скидкой</p>
+      </div><br>
+      <div class="text border-[1px] border-[#000000] rounded-[10px]">
+        <div class="text16 md:flex hidden justify-center gap-[80px] items-center p-5 bg-[#e9eaea]">
+          <p>2.5 AT Стандарт 2020</p>
+          <p>2.0  - 75 л.с.</p>
+          <p>6МТ</p>
+          <p>2WD</p>
+          <p>2 000 000 ₽</p>
+          <p>1 615 000 ₽</p>
+          <img src="./pointing 9.png" alt="">
+        </div>
+      <div class="text17 md:flex justify-around items-start">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+</svg>
+        <div class="text18">
+          <p class="text-[white] bg-[#CA0100] ronded-[10px]">Выгода 300 000 ₽ </p><br>
+          <img src="./tradeins 9.png" alt="">
+          <img src="./Group 3784.png" alt="">
+        </div>
+        <div class="text19 text-start">
+        <p>Toyota Camry</p><br>
+        <p class="text-[#CA0100]">В наличии с ПТС</p>
+        <p>В наличии: 1 авто</p>
+        <p>Доступна в 10 цветах</p>
+      </div>
+      <div class="text20">
+        <div class="text21 flex justify-center items-center gap-[10px]">
+          <div class="text22 flex justify-center items-center gap-[10px] border-[1px] border-[black] rounded-[10px]">
+            <img src="./Group 268.png" alt="">
+            <p>115 л.с.</p>
+          </div>
+          <div class="text22 flex justify-center items-center gap-[10px] border-[1px] border-[black] rounded-[10px]">
+            <img src="./Group 268.png" alt="">
+            <p>115 л.с.</p>
+          </div>
+        </div><br>
+        <div class="text21 flex justify-center items-center gap-[10px]">
+          <div class="text22 flex justify-center items-center gap-[10px] border-[1px] border-[black] rounded-[10px]">
+            <img src="./Group 268.png" alt="">
+            <p>115 л.с.</p>
+          </div>
+          <div class="text22 flex justify-center items-center gap-[10px] border-[1px] border-[black] rounded-[10px]">
+            <img src="./Group 268.png" alt="">
+            <p>115 л.с.</p>
+          </div>
+        </div><br>
+        <button class="bg-[#CA0100] text-[white]">Полное описание</button>
+      </div>
+      <div class="text">
+        <div class="text23 flex justify-center items-center gap-[10px]">
+          <img src="./Group 3644.png" alt="">
+          <p> <span class="text-[#CA0100]">Страхование </span><br>
+            в подарок</p>
+          </div>
+          <div class="text23 flex justify-center items-center gap-[10px]">
+          <img src="./Group 3644.png" alt="">
+          <p> <span class="text-[#CA0100]">Страхование </span><br>
+            в подарок</p>
+          </div>
+          <div class="text23 flex justify-center items-center gap-[10px]">
+            <img src="./Group 3644.png" alt="">
+            <p> <span class="text-[#CA0100]">Страхование </span><br>
+              в подарок</p>
+            </div>
+          </div>
+        <div class="text24">
+          <button class="bg-[#CA0100] text-[white] p-5">Забронировать</button><br><br>
+          <div class="text25 flex justify-center items-center">
+            <button class="bg-[#262626] text-[white] p-5">В Trade-in</button>
+              <button class="bg-[#737373] text-[white] p-5">Подробнее</button>
+            </div>
+          </div>
+        </div><br><br>
+        <div class="text26 md:flex block justify-around items-center">
+          <div class="text27 md:text-start text-center">
+            <h4 class="text-3xl">Безопасность </h4><br><br>
+            <p>Запасное колесо неполноразмерное<br>
+               Передние тормоза: Дисковые <br>
+                 Задние тормоза: Барабанные <br>
+                   Задние колеса: 175/65R14 <br>
+                 Передние колеса: 175/65R14 <br>
+                 Передний стабилизатор <br>
+                  Передняя подвеска: Независимая, <br> амортизационная стойка типа МакФерсон</p><br>
+          </div>
+          <div class="text27  md:text-start text-center">
+            <h4 class="text-3xl">Безопасность </h4><br><br>
+            <p>Запасное колесо неполноразмерное<br>
+               Передние тормоза: Дисковые <br>
+                 Задние тормоза: Барабанные <br>
+                   Задние колеса: 175/65R14 <br>
+                 Передние колеса: 175/65R14 <br>
+                 Передний стабилизатор <br>
+                  Передняя подвеска: Независимая, <br> амортизационная стойка типа МакФерсон</p><br>
+          </div>
+          <div class="text27 md:text-start text-center">
+            <h4 class="text-3xl">Безопасность </h4><br><br>
+            <p>Запасное колесо неполноразмерное<br>
+               Передние тормоза: Дисковые <br>
+                 Задние тормоза: Барабанные <br>
+                   Задние колеса: 175/65R14 <br>
+                 Передние колеса: 175/65R14 <br>
+                 Передний стабилизатор <br>
+                  Передняя подвеска: Независимая, <br>амортизационная стойка типа МакФерсон</p><br>
+          </div>
+        </div>
+        <div class="text28 md:flex block justify-around items-center">
+          <div class="text29 flex justify-center items-center gap-[10px] text-start border-[1px] border-[#000000] rounded-[10px]">
+            <img src="./beautiful-girl-broker-holding-sale-600w-242280859 1.png" alt="">
+            <div class="text">
+              <div class="text30 flex justify-center items-center gap-[10px]">
+                <img src="./VTB_Logo_2018 1.png" alt="">
+                <p>Рассрочка от ВТБ</p>
+              </div><br><br>
+              <p>Рассрочка 0%</p><br>
+              <button class="bg-[#009FDF] rounded-[10px]">Рассрочка</button>
+            </div>
+          </div><br>
+          <div class="text29 flex justify-center items-center gap-[10px] text-start border-[1px] border-[#000000] rounded-[10px]">
+            <img src="./beautiful-girl-broker-holding-sale-600w-242280859 1.png" alt="">
+            <div class="text">
+              <div class="text30 flex justify-center items-center gap-[10px]">
+                <img src="./VTB_Logo_2018 1.png" alt="">
+                <p>Рассрочка от ВТБ</p>
+              </div><br><br>
+              <p>Рассрочка 0%</p><br>
+              <button class="bg-[#009FDF] rounded-[10px]">Рассрочка</button>
+            </div>
+          </div><br>
+          <div class="text29 flex justify-center items-center gap-[10px] text-start border-[1px] border-[#000000] rounded-[10px]">
+            <img src="./beautiful-girl-broker-holding-sale-600w-242280859 1.png" alt="">
+            <div class="text">
+              <div class="text30 flex justify-center items-center gap-[10px]">
+                <img src="./VTB_Logo_2018 1.png" alt="">
+                <p>Рассрочка от ВТБ</p>
+              </div><br><br>
+              <p>Рассрочка 0%</p><br>
+              <button class="bg-[#009FDF] rounded-[10px]">Рассрочка</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header><br><br>
+  <header>
+    <div class="text31 md:flex hidden justify-center gap-[80px] items-center p-5 bg-[#e9eaea] rounded-[10px]">
+          <p>2.5 AT Стандарт 2020</p>
+          <p>2.0  - 75 л.с.</p>
+          <p>6МТ</p>
+          <p>2WD</p>
+          <p>2 000 000 ₽</p>
+          <p>1 615 000 ₽</p>
+          <img src="./pointing 9.png" alt="">
+        </div><br>
+        <div class="text31 md:flex hidden justify-center gap-[80px] items-center p-5 bg-[#e9eaea] rounded-[10px]">
+          <p>2.5 AT Стандарт 2020</p>
+          <p>2.0  - 75 л.с.</p>
+          <p>6МТ</p>
+          <p>2WD</p>
+          <p>2 000 000 ₽</p>
+          <p>1 615 000 ₽</p>
+          <img src="./pointing 9.png" alt="">
+        </div><br><br>
+        <div class="text border-[1px] border-[black]">
+          <div class="text16 md:flex hidden justify-center gap-[80px] items-center p-5 bg-[#e9eaea]">
+            <p>2.5 AT Стандарт 2020</p>
+            <p>2.0  - 75 л.с.</p>
+          <p>6МТ</p>
+          <p>2WD</p>
+          <p>2 000 000 ₽</p>
+          <p>1 615 000 ₽</p>
+          <img src="./pointing 9.png" alt="">
+        </div>
+        <div class="text17 md:flex justify-around items-start">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+          </svg>
+          <div class="text18">
+            <p class="text-[white] bg-[#CA0100] ronded-[10px]">Выгода 300 000 ₽ </p><br>
+            <img src="./tradeins 9.png" alt="">
+            <img src="./Group 3784.png" alt="">
+        </div>
+        <div class="text19 text-start">
+          <p>Toyota Camry</p><br>
+        <p class="text-[#CA0100]">В наличии с ПТС</p>
+        <p>В наличии: 1 авто</p>
+        <p>Доступна в 10 цветах</p>
+      </div>
+      <div class="text20">
+        <div class="text21 flex justify-center items-center gap-[10px]">
+          <div class="text22 flex justify-center items-center gap-[10px] border-[1px] border-[black] rounded-[10px]">
+            <img src="./Group 268.png" alt="">
+            <p>115 л.с.</p>
+          </div>
+          <div class="text22 flex justify-center items-center gap-[10px] border-[1px] border-[black] rounded-[10px]">
+            <img src="./Group 268.png" alt="">
+            <p>115 л.с.</p>
+          </div>
+        </div><br>
+        <div class="text21 flex justify-center items-center gap-[10px]">
+          <div class="text22 flex justify-center items-center gap-[10px] border-[1px] border-[black] rounded-[10px]">
+            <img src="./Group 268.png" alt="">
+            <p>115 л.с.</p>
+          </div>
+          <div class="text22 flex justify-center items-center gap-[10px] border-[1px] border-[black] rounded-[10px]">
+            <img src="./Group 268.png" alt="">
+            <p>115 л.с.</p>
+          </div>
+        </div><br>
+        <button class="bg-[#CA0100] text-[white]">Полное описание</button>
+      </div>
+      <div class="text">
+        <div class="text23 flex justify-center items-center gap-[10px]">
+          <img src="./Group 3644.png" alt="">
+          <p> <span class="text-[#CA0100]">Страхование </span><br>
+            в подарок</p>
+          </div>
+          <div class="text23 flex justify-center items-center gap-[10px]">
+            <img src="./Group 3644.png" alt="">
+            <p> <span class="text-[#CA0100]">Страхование </span><br>
+              в подарок</p>
+            </div>
+            <div class="text23 flex justify-center items-center gap-[10px]">
+              <img src="./Group 3644.png" alt="">
+              <p> <span class="text-[#CA0100]">Страхование </span><br>
+                в подарок</p>
+              </div>
+            </div>
+            <div class="text24">
+              <button class="bg-[#CA0100] text-[white] p-5">Забронировать</button><br><br>
+              <div class="text25 flex justify-center items-center">
+                <button class="bg-[#262626] text-[white] p-5">В Trade-in</button>
+                <button class="bg-[#737373] text-[white] p-5">Подробнее</button>
+              </div>
+            </div>
+            </div>
+            </div><br><br>
+             <div class="text31 md:flex hidden justify-center gap-[80px] items-center p-5 bg-[#e9eaea] rounded-[10px]">
+          <p>2.5 AT Стандарт 2020</p>
+          <p>2.0  - 75 л.с.</p>
+          <p>6МТ</p>
+          <p>2WD</p>
+          <p>2 000 000 ₽</p>
+          <p>1 615 000 ₽</p>
+          <img src="./pointing 9.png" alt="">
+        </div><br> 
+        <div class="text31 md:flex hidden justify-center gap-[80px] items-center p-5 bg-[#e9eaea] rounded-[10px]">
+          <p>2.5 AT Стандарт 2020</p>
+          <p>2.0  - 75 л.с.</p>
+          <p>6МТ</p>
+          <p>2WD</p>
+          <p>2 000 000 ₽</p>
+          <p>1 615 000 ₽</p>
+          <img src="./pointing 9.png" alt="">
+        </div><br> 
+        <div class="text31 md:flex hidden justify-center gap-[80px] items-center p-5 bg-[#e9eaea] rounded-[10px]">
+          <p>2.5 AT Стандарт 2020</p>
+          <p>2.0  - 75 л.с.</p>
+          <p>6МТ</p>
+          <p>2WD</p>
+          <p>2 000 000 ₽</p>
+          <p>1 615 000 ₽</p>
+          <img src="./pointing 9.png" alt="">
+        </div>
+  </header><br><br>
+  <header>
+    <div class="text md:flex block justify-around">
+      <div class="text32 border-[1px] border-[gray] md:w-[30%] w-[80%] m-auto md:m-0">
+        <div class="text33 flex justify-around">
+          <p>Специальное предложение <br>
+            от представительства</p>
+            <img src="./Group 3821.png" alt="">
+          </div>
+          <div class="text33 flex justify-around items-center">
+            <p class="text-[–35% ₽]">–35% ₽</p>
+            <img src="./Group 3833.png" alt="">
+          </div>
+        </div><br>
+        <div class="text32 border-[1px] border-[gray] md:w-[30%] w-[80%] m-auto md:m-0">
+        <div class="text33 flex justify-around">
+          <p>Специальное предложение <br>
+            от представительства</p>
+            <img src="./Group 3821.png" alt="">
+          </div>
+          <div class="text33 flex justify-around items-center">
+            <p class="text-[–35% ₽]">–35% ₽</p>
+            <img src="./Group 3833.png" alt="">
+          </div>
+        </div><br>
+        <div class="text32 border-[1px] border-[gray] md:w-[30%] w-[80%] m-auto md:m-0">
+        <div class="text33 flex justify-around">
+          <p>Специальное предложение <br>
+            от представительства</p>
+            <img src="./Group 3821.png" alt="">
+          </div>
+          <div class="text33 flex justify-around items-center">
+            <p class="text-[–35% ₽]">–35% ₽</p>
+            <img src="./Group 3833.png" alt="">
+          </div>
+        </div>
+      </div><br>
+      <div class="text md:flex block justify-around">
+      <div class="text32 border-[1px] border-[gray] md:w-[30%] w-[80%] m-auto md:m-0">
+        <div class="text33 flex justify-around">
+          <p>Специальное предложение <br>
+            от представительства</p>
+            <img src="./Group 3821.png" alt="">
+          </div>
+          <div class="text33 flex justify-around items-center">
+            <p class="text-[–35% ₽]">–35% ₽</p>
+            <img src="./Group 3833.png" alt="">
+          </div>
+        </div><br>
+        <div class="text32 border-[1px] border-[gray] md:w-[30%] w-[80%] m-auto md:m-0">
+        <div class="text33 flex justify-around">
+          <p>Специальное предложение <br>
+            от представительства</p>
+            <img src="./Group 3821.png" alt="">
+          </div>
+          <div class="text33 flex justify-around items-center">
+            <p class="text-[–35% ₽]">–35% ₽</p>
+            <img src="./Group 3833.png" alt="">
+          </div>
+        </div><br>
+        <div class="text32 border-[1px] border-[gray] md:w-[30%] w-[80%] m-auto md:m-0">
+        <div class="text33 flex justify-around">
+          <p>Специальное предложение <br>
+            от представительства</p>
+            <img src="./Group 3821.png" alt="">
+          </div>
+          <div class="text33 flex justify-around items-center">
+            <p class="text-[–35% ₽]">–35% ₽</p>
+            <img src="./Group 3833.png" alt="">
+          </div>
+        </div>
+      </div>
+  </header><br><br>
+  <header>
+    <div class="text34 md:flex block justify-around items-center bg-[#EFF0F0]">
+      <div class="text35">
+        <p>Максимальная скидка</p>
+        <h4 class="text-4xl">до 500 000 ₽</h4>
+      </div>
+      <div class="text36 flex justify-center gap-[80px] bg-[#CA0100] text-[white] p-5">
+        <div class="text37">
+          <p>Ваша скидка</p><br>
+          <h4 class="text-4xl">до 500 000 ₽</h4>
+        </div>
+        <button class="text-[#CA0100] bg-[#FFFFFF] p-5">Зафиксировать условия</button>
+      </div>
+    </div>
+  </header><br><br>
+  <header class="bg-[url('/src/bg2.png')] h-[80vh] bg-no-repeat md:flex block justify-around items-center">
+    <div class="text35 md:w-[30%] w-[80%] md:text-start text-center">
+      <span class="bg-[#CA0100] text-[white]">Акция до 20.02.2021</span><br>
+      <h1 class="text-5xl">Станьте владельцем 
+         Toyota Camry уже сегодня</h1><br><br>
+         <p>Ваше персональное предложение</p>
+         <div class="text36 md:flex block justify-around">
+          <input type="text" placeholder="Ваше имя" class="p-5">
+          <input type="text" placeholder="Ваш телефон" class="p-5">
+          <button class="bg-[#CA0100] text-[white] p-5">Получить предложение</button>
+         </div><br>
+         <p>Нажимая кнопку «Получить предложение», Вы соглашаетесь с политикой конфиденциальности и правилами обработки персональных данных</p>
+    </div>
+    <img src="./day-exterior-3_040_FA20 2.png" alt="">
+  </header><br><br><br><br><br>
+  <header class="text-center">
+      <h2 class="text-4xl">Экстерьер    |    Интерьер</h2><br><br>
+      <div class="text37 flex justify-center items-center gap-[80px]">
+        <img src="./Group 645.png" alt="">
+        <div class="text38 md:block hidden">
+          <img src="./Group 646.png" alt=""><br>
+          <img src="./Group 646.png" alt=""><br>
+          <img src="./Group 646.png" alt="">
+        </div>
+      </div><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.</p>
+  </header><br><br><br>
+  <header class="text-center">
+    <h2>Похожие предложения</h2><br>
+    <div class="text md:flex block justify-around">
+    <div class="text38 border-[1px] border-[gray] md:w-[30%] w-[80%] md:m-0 m-auto p-5">
+      <div class="text39">
+        <div class="text40 flex justify-around items-start">
+          <div class="text41">
+            <h3 class="text-3xl">Skoda Octavia</h3><br>
+            <div class="text42 flex justify-start gap-[10px]">
+              <button class="bg-[#CA0100] text-[white]">Предложение дня</button><br>
+              <p class="text-[#CA0100]">Выгода <br>
+                до 300 000 ₽</p>
+            </div>
+          </div>
+          <img src="./Group 3533.png" alt="">
+        </div><br>
+        <div class="text43 flex justify-around">
+          <div class="text">
+            <div class="text23 flex justify-center items-center gap-[10px]">
+              <img src="./Group 3644.png" alt="">
+              <p> <span class="text-[#CA0100]">Страхование </span><br>
+                в подарок</p>
+              </div>
+              <div class="text23 flex justify-center items-center gap-[10px]">
+                <img src="./Group 3644.png" alt="">
+                <p> <span class="text-[#CA0100]">Страхование </span><br>
+                  в подарок</p>
+                </div>
+                <div class="text23 flex justify-center items-center gap-[10px]">
+                  <img src="./Group 3644.png" alt="">
+                  <p> <span class="text-[#CA0100]">Страхование </span><br>
+                    в подарок</p>
+                  </div>
+                </div>
+                <img src="./a32e3b81-2aeb-426a-bdf5-a5db7fcd18c1 8.png" alt="">
+            </div>
+        </div>
+        <div class="text44 flex justify-around">
+          <h4 class="text-2xl">от 1 615 000 ₽ </h4>
+          <p>Кредит от 115 000 ₽/мес. </p>
+        </div><br>
+        <div class="text45 flex justify-start">
+          <button class="bg-[#CA0100] text-[white] p-5">Резерв онлайн</button>
+          <button class="bg-[#262626] text-[white] p-5">Купить</button>
+          <button class="bg-[#737373] text-[white] p-5">Подробнее</button>
+        </div>
+      </div>
+       <div class="text38 border-[1px] border-[gray] md:w-[30%] w-[80%] md:m-0 m-auto p-5">
+      <div class="text39">
+        <div class="text40 flex justify-around items-start">
+          <div class="text41">
+            <h3 class="text-3xl">Skoda Octavia</h3><br>
+            <div class="text42 flex justify-start gap-[10px]">
+              <button class="bg-[#CA0100] text-[white]">Предложение дня</button><br>
+              <p class="text-[#CA0100]">Выгода <br>
+                до 300 000 ₽</p>
+            </div>
+          </div>
+          <img src="./Group 3533.png" alt="">
+        </div><br>
+        <div class="text43 flex justify-around">
+          <div class="text">
+            <div class="text23 flex justify-center items-center gap-[10px]">
+              <img src="./Group 3644.png" alt="">
+              <p> <span class="text-[#CA0100]">Страхование </span><br>
+                в подарок</p>
+              </div>
+              <div class="text23 flex justify-center items-center gap-[10px]">
+                <img src="./Group 3644.png" alt="">
+                <p> <span class="text-[#CA0100]">Страхование </span><br>
+                  в подарок</p>
+                </div>
+                <div class="text23 flex justify-center items-center gap-[10px]">
+                  <img src="./Group 3644.png" alt="">
+                  <p> <span class="text-[#CA0100]">Страхование </span><br>
+                    в подарок</p>
+                  </div>
+                </div>
+                <img src="./a32e3b81-2aeb-426a-bdf5-a5db7fcd18c1 8.png" alt="">
+            </div>
+        </div>
+        <div class="text44 flex justify-around">
+          <h4 class="text-2xl">от 1 615 000 ₽ </h4>
+          <p>Кредит от 115 000 ₽/мес. </p>
+        </div><br>
+        <div class="text45 flex justify-start">
+          <button class="bg-[#CA0100] text-[white] p-5">Резерв онлайн</button>
+          <button class="bg-[#262626] text-[white] p-5">Купить</button>
+          <button class="bg-[#737373] text-[white] p-5">Подробнее</button>
+        </div>
+      </div>
+       <div class="text38 border-[1px] border-[gray] md:w-[30%] w-[80%] md:m-0 m-auto p-5">
+      <div class="text39">
+        <div class="text40 flex justify-around items-start">
+          <div class="text41">
+            <h3 class="text-3xl">Skoda Octavia</h3><br>
+            <div class="text42 flex justify-start gap-[10px]">
+              <button class="bg-[#CA0100] text-[white]">Предложение дня</button><br>
+              <p class="text-[#CA0100]">Выгода <br>
+                до 300 000 ₽</p>
+            </div>
+          </div>
+          <img src="./Group 3533.png" alt="">
+        </div><br>
+        <div class="text43 flex justify-around">
+          <div class="text">
+            <div class="text23 flex justify-center items-center gap-[10px]">
+              <img src="./Group 3644.png" alt="">
+              <p> <span class="text-[#CA0100]">Страхование </span><br>
+                в подарок</p>
+              </div>
+              <div class="text23 flex justify-center items-center gap-[10px]">
+                <img src="./Group 3644.png" alt="">
+                <p> <span class="text-[#CA0100]">Страхование </span><br>
+                  в подарок</p>
+                </div>
+                <div class="text23 flex justify-center items-center gap-[10px]">
+                  <img src="./Group 3644.png" alt="">
+                  <p> <span class="text-[#CA0100]">Страхование </span><br>
+                    в подарок</p>
+                  </div>
+                </div>
+                <img src="./a32e3b81-2aeb-426a-bdf5-a5db7fcd18c1 8.png" alt="">
+            </div>
+        </div>
+        <div class="text44 flex justify-around">
+          <h4 class="text-2xl">от 1 615 000 ₽ </h4>
+          <p>Кредит от 115 000 ₽/мес. </p>
+        </div><br>
+        <div class="text45 flex justify-start">
+          <button class="bg-[#CA0100] text-[white] p-5">Резерв онлайн</button>
+          <button class="bg-[#262626] text-[white] p-5">Купить</button>
+          <button class="bg-[#737373] text-[white] p-5">Подробнее</button>
+        </div>
+      </div>
+    </div>
+  </header><br><br><br>
+  <header>
+    <div class="text47 flex justify-around">
+      <h2 class="text-4xl">Нам доверяют</h2>
+      <img src="./arrows1.png" alt="">
+    </div><br>
+    <div class="text md:flex block justify-around">
+      <div class="text48 border-[1px] border[gray] md:w-[25%] md:m-0 w-[80%] m-auto p-5">
+        <h2 class="text-3xl">Сайт отзовик</h2><br>
+        <p>Название автосалона</p><br><br>
+        <div class="text49 flex justify-around">
+          <p>Рекомендуют 90%</p>
+          <img src="./Group 3793.png" alt="">
+          <img src="./Group 3794.png" alt="">
+        </div>
+      </div><br>
+      <div class="text48 border-[1px] border[gray] md:w-[25%] md:m-0 w-[80%] m-auto p-5">
+        <h2 class="text-3xl">Сайт отзовик</h2><br>
+        <p>Название автосалона</p><br><br>
+        <div class="text49 flex justify-around">
+          <p>Рекомендуют 90%</p>
+          <img src="./Group 3793.png" alt="">
+          <img src="./Group 3794.png" alt="">
+        </div>
+      </div><br>
+      <div class="text48 border-[1px] border[gray] md:w-[25%] md:m-0 w-[80%] m-auto p-5">
+        <h2 class="text-3xl">Сайт отзовик</h2><br>
+        <p>Название автосалона</p><br><br>
+        <div class="text49 flex justify-around">
+          <p>Рекомендуют 90%</p>
+          <img src="./Group 3793.png" alt="">
+          <img src="./Group 3794.png" alt="">
+        </div>
+      </div><br>
+      <div class="text48 border-[1px] border[gray] md:w-[25%] md:m-0 w-[80%] m-auto p-5">
+        <h2 class="text-3xl">Сайт отзовик</h2><br>
+        <p>Название автосалона</p><br><br>
+        <div class="text49 flex justify-around">
+          <p>Рекомендуют 90%</p>
+          <img src="./Group 3793.png" alt="">
+          <img src="./Group 3794.png" alt="">
+        </div>
+      </div>
+    </div><br><br>
+    <div class="text50 md:flex block justify-around">
+      <div class="text51 flex justify-around items-center md:w-[35%] w-[80%] md:m-0 m-auto">
+        <div class="text52">
+          <img src="./yandex-maps-logo 1.png" alt=""><br>
+          <p>Название автосалона</p>
+        </div><br>
+        <div class="text53">
+          <p>Рекомендуют 90%</p><br>
+          <img src="./Group 3793.png" alt="">
+        </div>
+        <img src="./Group 3866.png" alt="">
+      </div><br>
+      <div class="text51 flex justify-around items-center md:w-[35%] w-[80%] md:m-0 m-auto">
+        <div class="text52">
+          <img src="./yandex-maps-logo 1.png" alt=""><br>
+          <p>Название автосалона</p>
+        </div><br>
+        <div class="text53">
+          <p>Рекомендуют 90%</p><br>
+          <img src="./Group 3793.png" alt="">
+        </div>
+        <img src="./Group 3866.png" alt="">
+      </div>
+    </div>
+  </header><br><br><br>
+  <header>
+    <h2 class="text-4xl">Отзывы</h2><br>
+    <div class="text53 md:flex block justify-around">
+      <div class="text54 md:w-[20%] w-[80%] md:m-0 m-auto">
+        <img src="./Group 673 (1).png" alt="" class="bg-[#262626] p-20"><br>
+        <div class="text p-50">
+          <h4 class="text-3xl">Сергей Васильев</h4><br>
+          <p>«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...  </p><br><br>
+          <button>Подробнее</button>
+        </div>
+      </div><br>
+      <div class="text54 md:w-[20%] w-[80%] md:m-0 m-auto">
+        <img src="./Group 673 (1).png" alt="" class="bg-[#262626] p-20"><br>
+        <div class="text p-50">
+          <h4 class="text-3xl">Сергей Васильев</h4><br>
+          <p>«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...  </p><br><br>
+          <button>Подробнее</button>
+        </div>
+      </div><br>
+      <div class="text54 md:w-[20%] w-[80%] md:m-0 m-auto">
+        <img src="./Group 673 (1).png" alt="" class="bg-[#262626] p-20"><br>
+        <div class="text p-50">
+          <h4 class="text-3xl">Сергей Васильев</h4><br>
+          <p>«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...  </p><br><br>
+          <button>Подробнее</button>
+        </div>
+      </div>
+    </div>
+  </header><br><br><br>
+  <header>
+    <div class="text flex justify-around items-center">
+      <div class="text58 flex justify-start gap-[10px]">
+        <h2 class="text-4xl">Блог</h2>
+        <button class="bg-[#CA0100] text-[white]">Все статьи</button>
+      </div>
+      <img src="./arrows1.png" alt="">
+    </div>
+    <div class="text59 md:flex block justify-around">
+      <div class="text60">
+        <img src="./Rectangle 575.png" alt=""><br>
+        <p>25 октября</p><br>
+        <p>Тест Skoda Karoq Scout - городской <br>карлик или настоящий скаут</p>
+      </div><br>
+      <div class="text60">
+        <img src="./Rectangle 575.png" alt=""><br>
+        <p>25 октября</p><br>
+        <p>Тест Skoda Karoq Scout - городской <br>карлик или настоящий скаут</p>
+      </div><br>
+      <div class="text60">
+        <img src="./Rectangle 575.png" alt=""><br>
+        <p>25 октября</p><br>
+        <p>Тест Skoda Karoq Scout - городской <br>карлик или настоящий скаут</p>
+      </div><br>
+      <div class="text60">
+        <img src="./Rectangle 575.png" alt=""><br>
+        <p>25 октября</p><br>
+        <p>Тест Skoda Karoq Scout - городской <br>карлик или настоящий скаут</p>
+      </div>
+    </div>
+  </header><br><br><br>
+  <header class="w-[80%] m-auto">
+    <h3 class="text-4xl">Заголовок</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.</p>
+  </header><br>
+   <header class="w-[80%] m-auto">
+    <h3 class="text-4xl">Заголовок</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.</p>
+  </header><br>
+   <header class="w-[80%] m-auto">
+    <h3 class="text-4xl">Заголовок</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.</p>
+  </header><br><br><br>
+  <header class="bg-[#262626] text-[white]">
+    <div class="text61 p-5 md:flex justify-around hidden">
+      <p>Каталог авто</p>
+      <p>Авто с пробегом</p>
+      <p>Кредит и рассрочка</p>
+      <p>Спецпредложения</p>
+      <p>Такси в кредит</p>
+    </div><hr><br>
+    <div class="text62 md:flex justify-around hidden">
+      <p>Каталог авто</p>
+      <p>Подробнее</p>
+      <p>Карта сайта</p>
+      <p>Кредит и рассрочка</p>
+      <p>Контакты</p>
+    </div><br><br>
+    <div class="text63 md:text-start text-center md:flex justify-around flex-wrap p-10">
+      <div class="text64">
+        <p>Kia <br>
+           Hyundai <br>
+         Skoda <br>
+         Volkswagen <br>
+         Toyota <br>
+          Brilliance</p>
+      </div><br>
+      <div class="text65">
+        <p>Changan <br>
+          Chery <br>
+           CheryExeed <br>
+         Chevrolet <br>
+         Citroen <br>
+        Datsun</p>
+      </div><br>
+      <div class="text64">
+        <p>Kia <br>
+           Hyundai <br>
+         Skoda <br>
+         Volkswagen <br>
+         Toyota <br>
+          Brilliance</p>
+      </div><br>
+      <div class="text65">
+        <p>Changan <br>
+          Chery <br>
+           CheryExeed <br>
+         Chevrolet <br>
+         Citroen <br>
+        Datsun</p>
+      </div><br>
+      <div class="text64">
+        <p>Kia <br>
+           Hyundai <br>
+         Skoda <br>
+         Volkswagen <br>
+         Toyota <br>
+          Brilliance</p>
+      </div><br>
+      <div class="text65">
+        <p>Changan <br>
+          Chery <br>
+           CheryExeed <br>
+         Chevrolet <br>
+         Citroen <br>
+        Datsun</p>
+      </div><br>
+      <div class="text65">
+        <p>Экспресс-кредит <br>
+         Семейный автомобиль <br>
+          Первый автомобиль <br>
+         Работникам медицины <br>
+         Рассрочка <br>
+          Trade-in</p>
+      </div>
+      <div class="text66">
+        <div class="text67 flex justify-start gap-10 items-center">
+          <img src="./call-answer (3) 1.png" alt="">
+          <p>+7 (800) 551-94-31</p>
+        </div><br>
+        <div class="text67 flex justify-start gap-10 items-center">
+          <img src="./Frame 9 (1).png" alt="">
+          <p>Ежедневно с 08:00 до 21:00</p>
+        </div><br>
+        <div class="text67 flex justify-start gap-10 items-center">
+          <img src="./maps-and-flags (2) 1.png" alt="">
+          <p>Россия, Москва, 38КМ МКАД, 6Бс1 <br>
+                     <span class="text-[#CA0100]">Схема проезда</span></p>
+        </div>
+      </div>
+    </div><br><hr>
+    <div class="text69 bg-[#1B1B1B] text-[white] md:flex block justify-around items-center p-10">
+      <div class="text">
+        <p>© 2021 Автосалон "ABC AUTO". Официальный дилер</p><br>
+        <div class="text flex justify-center gap-[10px]">
+          <p>Политика конфиденциальности</p>
+          <p>Пользовательское соглашение</p>
+        </div>
+      </div>
+      <p>Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно <br> информационный характер и ни при каких условиях не является публичной офертой, <br> определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.</p><br>
+      <img src="./45588c5ae1444dc11fd0cd39704f66dd 1.png" alt="">
+    </div>
+  </header>
+</body>
+</html>
